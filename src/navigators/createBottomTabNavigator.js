@@ -140,9 +140,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     overflow: 'hidden',
+    backgroundColor:"black"
   },
   pages: {
     flex: 1,
+    borderBottomRightRadius:20,
+    borderBottomLeftRadius:20,
+    overflow:"hidden",
   },
 });
 
